@@ -1,15 +1,39 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Gradle files
+.gradle/
+build/
+*/build/
+
+# Local configuration file (SDK path, etc.)
 local.properties
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Keystore files (keep your signing keys private)
+*.jks
+*.keystore
+
+# Log files
+*.log
+
+# Android Studio captures
+captures/
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# Generated files
+gen/
+out/
+
+# Google services (if you have them, keep private)
+google-services.json
+
+# Crashlytics
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
